@@ -13,7 +13,8 @@ Multi-omics_mapping/
 │   ├── metadata.csv                    # Sample metadata (dataset, sample, group)
 │   └── overall_High.id_0.95_co_0.95.fas  # Clustered class II bacteriocin sequences
 └── 00.output/
-     └── counts.txt                      # Combined per-sample count table
+    ├── diversity.csv                    # Data for Figure 1b
+    └── individual_dataset_results.csv                      # Data for Extended Data Fig. 1a
 ```
 
 ## Requirements
