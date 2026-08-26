@@ -6,15 +6,15 @@ Scripts for mapping class II bacteriocin sequences to metagenomic and metatransc
 
 ```
 Multi-omics_mapping/
-├── mapping.sh                          # PALADIN mapping pipeline
-├── get_count_table.py                  # Build a count table from samtools idxstats
-├── analysis_code.R                  # Diversity + DESeq2 differential abundance analysis
+├── mapping.sh                            # PALADIN mapping pipeline
+├── get_count_table.py                    # Build a count table from samtools idxstats
+├── analysis_code.R                       # Diversity + DESeq2 differential abundance analysis
 ├── 00.data/
-│   ├── metadata.csv                    # Sample metadata (dataset, sample, group)
+│   ├── metadata.csv                      # Sample metadata (dataset, sample, group)
 │   └── overall_High.id_0.95_co_0.95.fas  # Clustered class II bacteriocin sequences
 └── 00.output/
-    ├── diversity.csv                    # Data for Figure 1b
-    └── individual_dataset_results.csv                      # Data for Extended Data Fig. 1a
+    ├── diversity.csv                     # Data for Figure 1b
+    └── individual_dataset_results.csv    # Data for Extended Data Fig. 1a
 ```
 
 ## Requirements
@@ -40,3 +40,6 @@ mapping.sh
 ### Step 3: Build the count table
 
 ### Step 4: Differential abundance analysis
+
+## Reference
+Shi, Y#, Fang X#, Lin X, Xie, X., Chen, X., Zhang, D., Ma, X., Chen, J., Wei, X., Ren, J. and Wu, G. Liu N., Yang G.* LI, Y.X.* "Health-associated gut bacteriocins target TLR4 to suppress intestinal inflammation." bioRxiv (2026): 2026-07.
